@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+<header class="navbar">
+  <div class="navbar-left">
+    <a href="../index.html" class="btn back-btn">←</a>
+    <div class="logo">SusiloFajar</div>
+  </div>
+</header>
+
+  <section class="project-detail show">
+    <h2>Detail Proyek Frontend: <span>Website Sekolah Digital</span></h2>
+
+    <div class="project-image center">
+      <img src="../assets/images/frontend.jpg" alt="Preview Website Sekolah">
+    </div>
+
+    <div class="project-info">
+      <p><strong>Deskripsi:</strong> Website sekolah ini dibangun dengan fokus pada tampilan yang modern, responsif, dan mudah diakses oleh siswa, guru, dan orang tua. Proyek ini merupakan hasil pengembangan frontend yang mengedepankan struktur navigasi yang jelas, penggunaan warna yang profesional, serta pengalaman pengguna yang optimal di berbagai perangkat. Seluruh tampilan dirancang dengan pendekatan <em>mobile-first</em> dan kompatibel untuk keperluan informasi maupun pendaftaran online.</p>
+
+      <h3>Fitur Antarmuka Utama:</h3>
+      <ul>
+        <li>Halaman beranda informatif dan atraktif</li>
+        <li>Profil sekolah, visi misi, dan struktur organisasi</li>
+        <li>Halaman layanan dan berita sekolah terkini</li>
+        <li>Formulir pendaftaran siswa baru (PPDB) online</li>
+        <li>Desain responsif untuk desktop, tablet, dan smartphone</li>
+        <li>Animasi interaktif dan alert dinamis</li>
+      </ul>
+
+      <h3>Teknologi Frontend yang Digunakan:</h3>
+      <ul>
+        <li><strong>HTML5 & CSS3:</strong> Struktur dan styling dasar</li>
+        <li><strong>JavaScript:</strong> Interaktivitas dan validasi form</li>
+        <li><strong>Bootstrap 5:</strong> Grid sistem dan komponen UI responsif</li>
+        <li><strong>SweetAlert2:</strong> Notifikasi dan feedback pengguna</li>
+        <li><strong>Google Fonts:</strong> Tipografi modern dengan Poppins</li>
+      </ul>
+    </div>
+  </section>
+
+<!-- Tambahan Galeri Gambar -->
+<section class="gallery-bottom">
+  <div class="gallery-header">
+    <h2>Preview Project:</h2>
+  </div>
+  <div class="gallery-grid">
+    <div class="item">
+      <img src="../assets/images/user.jpg" alt="Formulir Pendaftaran E-Bansos">
+      <a href="https://bit.ly/Tampilan-Antarmuka-User" target="_blank" class="caption-link">Tampilan User</a>
+    </div>
+    <div class="item">
+      <img src="../assets/images/admin.jpg" alt="Dashboard Bantuan Sosial">
+      <a href="https://bit.ly/tampilan-antarmuka-admin" target="_blank" class="caption-link">Tampilan Admin</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Modal Gambar -->
+     <div id="imageModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage">
+    </div>
+
+  <footer>
+    <p>&copy; 2025 Susilo Fajar. All rights reserved.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
